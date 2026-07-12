@@ -1,0 +1,46 @@
+img{
+    height: 20px;
+    width: 20px;
+}
+.Devconf p{
+    font-size: 10px;
+    margin: 0;
+    margin-left: 2px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 30px;
+}
+nav ul li a{ 
+           color: black;
+           font-size: 13px;
+           text-decoration: none; } 
+nav ul { 
+            display: flex; 
+            list-style: none;
+            gap:30px;
+            margin: 0;
+            padding: 0;
+}
+button{
+    font-size: 9px;
+    color: white;
+    background-color: royalblue;
+    padding: 2px;
+    border-radius: 3px;
+    margin-right: 30px;
+    border:none;
+    height: 30px;
+    width: 100px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
