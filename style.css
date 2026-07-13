@@ -61,6 +61,7 @@ header{
 .banner_content h1{
     color: white;
     font-size: 60px;
+    font-weight: 900;
 }
 .banner_content p{
     color: white;
@@ -244,11 +245,21 @@ footer{
     padding: 35px 80px;
     color: gray;
 }
+.footerTexts{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
 .footerTexts p{
     color: gray;
     text-decoration: none;
 }
-.footerTexts{
+.icons{
     display: flex;
-    gap: 30px
+    gap: 25px;
+}
+.icons a{
+    color: #9ca3af;
+    font-size: 18px;
+    text-decoration: none;
 }
