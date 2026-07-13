@@ -236,3 +236,19 @@ hr{
     border-radius: 8px;
     font-size: 16px;
 }
+footer{
+    background-color: rgb(3, 3, 72);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 80px;
+    color: gray;
+}
+.footerTexts p{
+    color: gray;
+    text-decoration: none;
+}
+.footerTexts{
+    display: flex;
+    gap: 30px
+}
