@@ -79,10 +79,10 @@ header{
     width: 150px;
 }
 section h2{
-    font-size: 30px;
+    font-size: 47px;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 35px;
+    margin-top: 53px;
+    margin-bottom: 38px;
 }
 .cards{
     border: 1px solid lightgray;
@@ -118,13 +118,121 @@ section h2{
     border-top-right-radius: 10px;
 }
 #secure{
-    font-size: 28px;
+    font-size: 47px;
     text-align: center;
     margin-bottom: 0;
-    margin-top: 100px;
+    margin-top: 120px;
 }
 section h1{
-    font-size: 10px;
+    font-size: 15px;
+    font-weight: 100;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.pricing{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.card ,.card2{
+    width: 370px;
+    height:442px;
+    border:1px solid lightgray;
+    border-radius: 10px;
+    padding:30px;
+}
+.card2{
+    background-color: #0f1b2d;
+    color: white;
+}
+.list li{
+    margin-bottom: 15px;
+}
+li::marker{
+    color: royalblue;
+}
+.but{
+    background-color: white;
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+hr{
+    border: none;
+    border-top: 1px solid lightgray;
+    margin: 25px 0;
+}
+.card2 hr{
+    border: none;
+    border-top: 1px solid gray;
+    margin: 25px 0;
+}
+.price{
+    font-size: 50px;
+    margin: 10px 0;
+    text-align: left;
+
+}
+.card2 small{
+    color:gray;
+}
+.card .price{
+    color: black;
+}
+.card2 .price{
+    color: white;
+}
+.card2 .but{
+    background-color: royalblue;
+    color: white;
+    border: none;
+}
+.card .type , small{
+    color: gray ;
+}
+.card2 .type{
+    color: royalblue;
+}
+.card .standard{
+    border: 1px solid royalblue;
+    color: royalblue;
+}
+.newsletter{
+    width: 80%;
+    margin: 80px auto ;
+    background-color: #f7f8ff ;
+    border-radius: 15px;
+    padding: 60px;
+    text-align: center;
+}
+.newsletter h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: black;
+}
+.newsletter p{
+    width: 60%;
+    margin: 0 auto 30px;
     color: gray;
+    line-height: 1.6;
+}
+.newsletter input{
+    width: 350px;
+    padding: 15px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.newsletter button{
+    display: block;
+    margin: auto;
+    padding: 15px 35px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
 }
